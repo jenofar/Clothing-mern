@@ -1,0 +1,113 @@
+.GSucessFullModal{
+  text-align: center;
+  position: fixed;
+  top: 115px;
+  left: 517px;
+  width: 350px;
+  height: 400px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 0.9em;
+  opacity: 1;
+  z-index: 1;
+  border: 1px solid #5861AE;
+  padding-top: 3em ;
+  padding-left: 55px;
+
+}
+
+.GContainerSucess{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.GimageSucessfullImage{
+display:flex;
+}
+.cart-image{
+  margin-right: 10px;
+  height: 50px;
+  width: 60px;
+  border-radius: 50em;
+}
+.h1-head{
+  margin-top: 10px;
+  margin-right: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cart-order{
+margin-right: 200px;
+}
+.pr-div{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 165px;
+  display: inline-flex;
+  gap: 50px;
+}
+.price{
+ 
+    margin-top: 4px;
+
+}
+.total{
+  margin-right:30px;
+  font-size: 20px;
+  
+}
+.tot-span{
+  font-weight: 500;
+  font-size: 30px;
+}
+.checkout{
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-right: 10px;
+ padding-left: 10px;
+ border: 1px solid;
+ border-radius: 50px;
+ margin-right: 60px;
+}
+.qua-btn{
+  margin-left: 5px;
+  height: 15px;
+  width: 10px;
+}
+.checkout:hover{
+  background-color: var(--orange);
+  color: #FFFFFF;
+}
+.btn-rem{
+  margin-left: 40px;
+height: 20px;
+width: 20px;
+background-color: #FFFFFF;
+}
+.btn-rem:hover{
+  background-color: var(--orange);
+  border-radius: 10px;
+}
+@media (max-width: 991px) {
+  .GSucessFullModal{
+    position: absolute;
+    left: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .GSucessFullModal{
+    position: absolute;
+    left: 250px;
+  }
+}
+@media (max-width: 450px) {
+  .GSucessFullModal{
+    position: absolute;
+    left: 20px;
+}
+  }

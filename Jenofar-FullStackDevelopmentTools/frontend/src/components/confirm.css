@@ -1,0 +1,29 @@
+.img-bg{
+    margin-top: 10px;
+    background-color:var(--orange);
+    border-radius: 50px;
+}
+.con-h1{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.con-p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.con-btn{
+    margin-top: 10px;
+    padding: 3px 13px 3px 13px;
+    border-radius: 25px;
+    border: 1px solid;
+}
+.con-btn:hover{
+    background-color: var(--orange);
+    color: #fff;
+}
+.err h1{
+    font-size: 40px;
+    font-weight: 500;
+}
